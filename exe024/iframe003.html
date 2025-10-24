@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi atque tempore, inventore sunt, cupiditate non
+        numquam dicta, unde maxime ab vel voluptatem quaerat voluptates exercitationem accusantium illo odio a. Dolorem?
+    </p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vel consectetur dolores cumque numquam eos fugiat
+        earum consequatur reiciendis, recusandae modi assumenda accusantium commodi nam adipisci alias veritatis
+        obcaecati placeat!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem</p><img src='imagens/tecno-show.jpg'>">
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque perferendis facilis fuga. Officia amet quia fugit sed mollitia rem ad id explicabo, iusto vero tempora hic obcaecati. Accusamus, beatae voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia facilis, saepe est dicta expedita quis eligendi ab pariatur vero, fugit officiis, tempora fugiat quia aliquid nihil tempore optio laudantium eos?</p>
+</body>
+
+</html>
